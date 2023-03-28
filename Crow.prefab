@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4066413620545280668}
   - component: {fileID: 6539608931239853380}
   - component: {fileID: 8811298845269757426}
+  - component: {fileID: 7777351510701469274}
   m_Layer: 0
   m_Name: Crow
   m_TagString: Untagged
@@ -96,7 +97,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ceb7d224557ec4f469fa6d9faefb952d, type: 3}
+  m_Sprite: {fileID: 947758982, guid: a88d681727c89864d89a0ea31607b89a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +105,7 @@ SpriteRenderer:
   m_Size: {x: 3.5, y: 3.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &8811298845269757426
@@ -122,3 +123,24 @@ MonoBehaviour:
   movementSpeed: 10
   body: {fileID: 4066413620545280668}
   sprite: {fileID: 6539608931239853380}
+--- !u!95 &7777351510701469274
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5351458141675511208}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b085af848add80147b19e4dd580e35a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

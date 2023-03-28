@@ -180,7 +180,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -325,11 +325,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3781199839117164471, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.53
+      value: -0.32
       objectReference: {fileID: 0}
     - target: {fileID: 3781199839117164471, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.03
+      value: -2.59
       objectReference: {fileID: 0}
     - target: {fileID: 3781199839117164471, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -366,6 +366,22 @@ PrefabInstance:
     - target: {fileID: 5351458141675511208, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
       propertyPath: m_Name
       value: Crow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539608931239853380, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
+      propertyPath: m_Size.x
+      value: 3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539608931239853380, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
+      propertyPath: m_Size.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6539608931239853380, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -548688447, guid: a88d681727c89864d89a0ea31607b89a, type: 3}
+    - target: {fileID: 6539608931239853380, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8811298845269757426, guid: 4906f61c88bcc7247a154943459e3ea3, type: 3}
       propertyPath: camera
