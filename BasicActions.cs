@@ -23,8 +23,16 @@ public class BasicActions : MonoBehaviour
                       : Input.GetKey(KeyCode.D) ? Vector2.right * movementSpeed
             : Vector2.zero;
 
-        sprite.flipX = body.velocity.x > 0;
-        
-        
+        switch (body.velocity.x)
+        {
+            case >0: sprite.flipX = true;
+                break;
+            case <0: sprite.flipX = false;
+                break;
+        }
+        //if (body.velocity.x > 0) sprite.flipX = true;
+        //if (body.velocity.x < 0) sprite.flipX = false;
+
+
     }
 }
