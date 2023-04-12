@@ -16,7 +16,7 @@ public class BasicActions : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         body.velocity = Input.GetKey(KeyCode.W) ? Vector2.up * movementSpeed
