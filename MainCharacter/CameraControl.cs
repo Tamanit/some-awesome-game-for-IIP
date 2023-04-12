@@ -14,11 +14,10 @@ public class CameraControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        camera.GetComponent<Camera>();
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    void FixedUpdate()
     {
         var transformPosition = new Vector3();
         transformPosition.z = -10;

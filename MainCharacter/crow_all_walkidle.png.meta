@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01cdc883127c72d4fa1f594df88f5eec
+guid: 53863ccb9ca40414899df039646216d5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,70 +105,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crow_full_0
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 0
-        width: 31
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fc1e8880062ef2459cda271d9b5bc6e
-      internalID: -585795440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crow_full_1
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 0
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b7cd8e2a29550f4593956022d33e6ac
-      internalID: -765655606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crow_full_2
+      name: LeftRIghtWalk_0
       rect:
         serializedVersion: 2
         x: 72
         y: 0
         width: 31
-        height: 31
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceed5f04e8d53744b904ae36f629763a
-      internalID: -172238350
+      spriteID: d6dd366139dfdec4ba2caed6010871a7
+      internalID: -1662311755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_3
+      name: LeftRIghtWalk_1
       rect:
         serializedVersion: 2
         x: 107
@@ -176,20 +134,20 @@ TextureImporter:
         width: 31
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d3fc9991c2c20a4c8c1e3d7b8cdc289
-      internalID: -780144418
+      spriteID: 15e4f408d690cc8429389f5e084ab657
+      internalID: 1221523642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_4
+      name: LeftRIghtWalk_2
       rect:
         serializedVersion: 2
         x: 142
@@ -197,20 +155,20 @@ TextureImporter:
         width: 31
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6e77d3a48dd5b54d986bb3779c7a4bb
-      internalID: -548838570
+      spriteID: 6e4a3e4b0f7c38144b63f5084c0bb7c4
+      internalID: 1046612494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_5
+      name: LeftRIghtWalk_3
       rect:
         serializedVersion: 2
         x: 179
@@ -218,20 +176,20 @@ TextureImporter:
         width: 29
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8d63b3664b9c554f96215f301beb7be
-      internalID: 1338478166
+      spriteID: 3843fae463efc044186a46cd95f44f47
+      internalID: -1361134219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_6
+      name: LeftRIghtWalk_4
       rect:
         serializedVersion: 2
         x: 212
@@ -239,20 +197,20 @@ TextureImporter:
         width: 31
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 797a9c53aba9ea84ba7dc93f019d7b0c
-      internalID: -1873923090
+      spriteID: 49508c9649c0707469245b5df1c01086
+      internalID: -893581167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_7
+      name: LeftRIghtWalk_5
       rect:
         serializedVersion: 2
         x: 247
@@ -260,20 +218,20 @@ TextureImporter:
         width: 31
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b19155f9972e4da4db14296341ae6690
-      internalID: -233268957
+      spriteID: 31694be8f539e694dbf83c508463faa1
+      internalID: -1629946887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_8
+      name: UpWalking_0
       rect:
         serializedVersion: 2
         x: 285
@@ -281,20 +239,20 @@ TextureImporter:
         width: 24
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fde14922a404a364e87848cc72629462
-      internalID: 597505000
+      spriteID: 338105993db343247bf10d30fe5875f3
+      internalID: -2042872312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_9
+      name: UpWalking_1
       rect:
         serializedVersion: 2
         x: 320
@@ -302,20 +260,20 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c02ad8b2369e27846bed376ce7e0fa0c
-      internalID: -1417792001
+      spriteID: 38d7b13be73761f41a40743b779ed95f
+      internalID: 22303267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_10
+      name: UpWalking_2
       rect:
         serializedVersion: 2
         x: 355
@@ -323,20 +281,20 @@ TextureImporter:
         width: 24
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82c1bc551160ec14ca735fc7957435cb
-      internalID: 221951116
+      spriteID: 92f3d1a10c6fe9c4fad688946bc179c8
+      internalID: 2039204304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_11
+      name: UpWalking_3
       rect:
         serializedVersion: 2
         x: 390
@@ -344,20 +302,20 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24386243c0fd7f244b9b5a19380f8886
-      internalID: -1589938079
+      spriteID: 6d8f714670f885941a78293cebb89228
+      internalID: -1412231830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_12
+      name: UpWalking_4
       rect:
         serializedVersion: 2
         x: 425
@@ -365,20 +323,20 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6592ac85294704e9e6e697fa87ae6b
-      internalID: -1504508862
+      spriteID: d66603ed0b1e2a84d870b040ce7343eb
+      internalID: 285702052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_13
+      name: UpWalking_5
       rect:
         serializedVersion: 2
         x: 460
@@ -386,35 +344,245 @@ TextureImporter:
         width: 24
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e29da53bc2fc7cf498f6c1c0e21c3d9f
-      internalID: 1536684497
+      spriteID: a68e989594169f144a98787793bfb92a
+      internalID: 941256758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_full_14
+      name: UpWalking_6
       rect:
         serializedVersion: 2
         x: 495
         y: 0
         width: 24
-        height: 34
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 559d4b139d57fc9498914846ec2c8ee0
-      internalID: 1018948131
+      spriteID: 86647b7841e5afe46aa12ca0f7fe4037
+      internalID: 1587004413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownWalking_0
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecf5c462ac613d4cafae04a61fc5d17
+      internalID: 683491956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownWalking_1
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91923fd8900af634eb3492b4d9d1cd50
+      internalID: 208849895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownWalking_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454dfdc762d3f9e47b25b471c8e799d0
+      internalID: 1524028901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownWalking_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344d17e08e28ed443a652575234d5a60
+      internalID: 1314871634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownWalking_4
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a3e2294d97f1e48816e47cb0ed8659
+      internalID: 774946210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownWalking_5
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67e855b017e6ef49b895f89f22294e3
+      internalID: 1352744301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_0
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5677a4a23aeb424181bd85788753a64
+      internalID: -949993184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_1
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 2
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c81dfaab026c1147a4655a4b14900f8
+      internalID: -1524559228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_2
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a5507cac68727439ebdd7dbbea6a71
+      internalID: 193229297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_3
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b079d641516734daf3946f1c9bff4e
+      internalID: -1634381803
       vertices: []
       indices: 
       edges: []
@@ -430,21 +598,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      crow_full_0: -585795440
-      crow_full_1: -765655606
-      crow_full_10: 221951116
-      crow_full_11: -1589938079
-      crow_full_12: -1504508862
-      crow_full_13: 1536684497
-      crow_full_14: 1018948131
-      crow_full_2: -172238350
-      crow_full_3: -780144418
-      crow_full_4: -548838570
-      crow_full_5: 1338478166
-      crow_full_6: -1873923090
-      crow_full_7: -233268957
-      crow_full_8: 597505000
-      crow_full_9: -1417792001
+      DownWalking_0: 683491956
+      DownWalking_1: 208849895
+      DownWalking_2: 1524028901
+      DownWalking_3: 1314871634
+      DownWalking_4: 774946210
+      DownWalking_5: 1352744301
+      Idle_0: -949993184
+      Idle_1: -1524559228
+      Idle_2: 193229297
+      Idle_3: -1634381803
+      LeftRIghtWalk_0: -1662311755
+      LeftRIghtWalk_1: 1221523642
+      LeftRIghtWalk_2: 1046612494
+      LeftRIghtWalk_3: -1361134219
+      LeftRIghtWalk_4: -893581167
+      LeftRIghtWalk_5: -1629946887
+      UpWalking_0: -2042872312
+      UpWalking_1: 22303267
+      UpWalking_2: 2039204304
+      UpWalking_3: -1412231830
+      UpWalking_4: 285702052
+      UpWalking_5: 941256758
+      UpWalking_6: 1587004413
+      crow_all_walkidle_0: -1795747146
+      crow_all_walkidle_1: 630881398
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
