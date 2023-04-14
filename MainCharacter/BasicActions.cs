@@ -10,8 +10,8 @@ public class BasicActions : MonoBehaviour
     //public Rigidbody2D body;
     public SpriteRenderer sprite;
     public Animator animator;
-
     private Vector3 _movingVector;
+
     void Start()
     {
         body.GetComponent<CharacterController>();
@@ -51,16 +51,7 @@ public class BasicActions : MonoBehaviour
                 break;
         }
 
-        //var isUpDownMoving = Input.GetButtonDown(KeyCode.)
-        //var ismoving = body.velocity.x != 0
-
-        //animator.SetFloat("UpDownAxis", Input.GetAxis("Vertical"));
         animator.SetBool("XMove", Math.Abs(body.velocity.x) > 0);
         animator.SetFloat("YMove", Input.GetAxis("Vertical"));
-
-        //if (body.velocity.x > 0) sprite.flipX = true;
-        //if (body.velocity.x < 0) sprite.flipX = false;
-
-
     }
 }
