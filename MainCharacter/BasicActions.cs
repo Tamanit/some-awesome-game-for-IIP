@@ -23,7 +23,7 @@ public class BasicActions : MonoBehaviour
     {
         //if (body.isGrounded){}
 
-        _movingVector = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
+        _movingVector = new Vector3(Input.GetAxis("Horizontal"), -5, 0);
         _movingVector = transform.TransformDirection(_movingVector);
         _movingVector *= movementSpeed;
 
