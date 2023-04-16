@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6539608931239853380}
   - component: {fileID: 8811298845269757426}
   - component: {fileID: 6400905472439290445}
+  - component: {fileID: 990813017502563839}
+  - component: {fileID: 7164739523254758799}
   m_Layer: 0
   m_Name: Crow
   m_TagString: Untagged
@@ -75,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -585795440, guid: 01cdc883127c72d4fa1f594df88f5eec, type: 3}
+  m_Sprite: {fileID: -1524559228, guid: 53863ccb9ca40414899df039646216d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,7 +85,7 @@ SpriteRenderer:
   m_Size: {x: 3.1, y: 3.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &8811298845269757426
@@ -95,13 +97,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5351458141675511208}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 880936df3978bd14d817f956c57ad270, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fc715c6991504546873ad5684281994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 4
-  body: {fileID: 0}
+  movementSpeed: 3.5
+  body: {fileID: 7164739523254758799}
   sprite: {fileID: 6539608931239853380}
-  animator: {fileID: 0}
+  animator: {fileID: 6400905472439290445}
 --- !u!95 &6400905472439290445
 Animator:
   serializedVersion: 5
@@ -123,3 +125,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &990813017502563839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5351458141675511208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a182a45933489c240b58b53bc79334e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  zoomStep: 0
+  maxZoomSize: 0
+  upToCenterSize: 0
+  minZoomSize: 0
+--- !u!143 &7164739523254758799
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5351458141675511208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
