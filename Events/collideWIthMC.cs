@@ -15,6 +15,7 @@ public class collideWIthMC : MonoBehaviour
 
         if (collisionObject.CompareTag("Player"))
         {
+            print("touch");
             if (Input.GetKeyDown(KeyCode.E))
             {
                 waterPunchCounter++;
