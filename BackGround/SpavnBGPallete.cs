@@ -1,62 +1,42 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SpavnBGPallete : MonoBehaviour
 {
-    public GameObject desert;
-    public GameObject forest;
-    public GameObject mountins;
+    public GameObject[] backGrounds;
     public GameObject voidDG;
 
     public float timeToLive = 7f;
     public int minCount = 3;
 
     private float _timer = 8f;
-    private List<GameObject> AllBGs;
-    private int BGcounter = 0;
-    private GameObject currentBG;
 
-    void Start()
+    private int _bGCounter = 0;
+
+    private void Start()
     {
-        AllBGs = new List<GameObject>()
-        {
-            desert,
-            forest,
-            mountins,
-        };
-        currentBG = AllBGs[0];
+        currentBG = backGrounds[0];
     }
-    
+
     void FixedUpdate()
     {
-        if (_timer < timeToLive)
-        {
-            _timer += Time.deltaTime;
-        }
-        else
-        {
-            _timer = 0;
-            BGcounter++;
-            CreatePalette();
-        }
+        _timer = _timer < timeToLive ? _timer += Time.fixedDeltaTime : 0;
+
+        if (_timer == 0) ChangeBackground();
     }
 
-    private void CreatePalette() => Instantiate(ChangeBackground(), transform.position, transform.rotation);
-
-    private GameObject ChangeBackground()
+    private GameObject currentBG;
+    private void ChangeBackground()
     {
-        if (BGcounter == minCount)
+        if (++_bGCounter == minCount)
         {
-            return voidDG;
+            currentBG = voidDG;
         }
-
-        if (BGcounter > minCount)
+        else if (_bGCounter > minCount)
         {
-            currentBG = AllBGs[new System.Random().Next(AllBGs.Count)];
-            BGcounter = 0;
+            currentBG = backGrounds[new System.Random().Next(backGrounds.Length)];
+            _bGCounter = 0;
         }
-
-        return currentBG;
+        
+        Instantiate(currentBG, transform.position, transform.rotation);
     }
-
 }

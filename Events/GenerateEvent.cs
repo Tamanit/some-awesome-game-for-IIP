@@ -9,21 +9,14 @@ public class GenerateEvent : MonoBehaviour
     public GameObject fire;
     public GameObject drezin;
 
+    public GameObject train;
 
     private float timeToLive = 9f;
     private int minCount = 3;
     private float _timer = 0f;
-
-
-    public bool isHandled;
+    
     public string[] eventNames = new string[]{"fire","pipe", "drezin"};
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    
     void FixedUpdate()
     {
         
@@ -57,7 +50,8 @@ public class GenerateEvent : MonoBehaviour
     } 
     private Vector2 CreatePipePosition()
     {
-       var x = UnityEngine.Random.Range(-60.5f, 52.5f);
+        var wagon = new System.Random().Next(-1, 2);
+        var x = UnityEngine.Random.Range(-60.5f, 52.5f) + 140 * wagon;
        var y = -22f;
        var pos = new Vector2(x, y);
        return pos;
@@ -66,7 +60,8 @@ public class GenerateEvent : MonoBehaviour
 
     private Vector2 CreateFirePosition()
     {
-        var x = UnityEngine.Random.Range(-60.5f, 52.5f);
+        var wagon = new System.Random().Next(-1, 2);
+        var x = UnityEngine.Random.Range(-60.5f, 52.5f)+ 140 * wagon;
         var y = UnityEngine.Random.Range(-20f, 17f);
         var pos = new Vector2(x, y);
         return pos;
