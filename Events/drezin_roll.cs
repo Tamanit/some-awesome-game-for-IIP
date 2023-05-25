@@ -7,16 +7,12 @@ using UnityEngine;
 public class drezin_roll : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private float fallTime = 0.0f;
     private float counter = 0;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
-
         rb.velocity = new Vector2(60f, 0);
-
     }
 
     // Update is called once per frame

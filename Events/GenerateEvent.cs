@@ -16,7 +16,7 @@ public class GenerateEvent : MonoBehaviour
 
 
     public bool isHandled;
-    public string[] eventNames = new string[]{"fire","pipe", "drezin"};
+    private string[] eventNames = new string[]{"fire","pipe", "drezin"};
 
     void Start()
     {
