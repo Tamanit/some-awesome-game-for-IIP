@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class basicMovement : MonoBehaviour
 {
-    public float movementSpeed = 1000f;
+    public float movementSpeed = 60f;
     public Rigidbody2D body;
     public SpriteRenderer sprite;
     public Animator animator;
@@ -35,7 +35,7 @@ public class basicMovement : MonoBehaviour
                 break;
         }
 
-        animator.SetBool("XMove", Math.Abs(body.velocity.x) > 0);
+        animator.SetBool("XMove", !Mathf.Approximately(0f, body.velocity.x));
         animator.SetFloat("YMove", Input.GetAxis("Vertical"));
     }
 }
