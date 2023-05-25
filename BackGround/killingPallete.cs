@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class killingPallete : MonoBehaviour
 {
-
-    // Update is called once per frame
-    void Update()
+    public float deadZone;
+    void FixedUpdate()
     {
-        
+        if (transform.position.x < deadZone)
+            Destroy(gameObject);
     }
 }
