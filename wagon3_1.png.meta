@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 53863ccb9ca40414899df039646216d5
+guid: 7c3200b29a1ed214db9d1474188e3745
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,484 +105,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LeftRIghtWalk_0
+      name: wagon3_1_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 31
-        height: 33
+        x: 1
+        y: 121
+        width: 11
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6dd366139dfdec4ba2caed6010871a7
-      internalID: -1662311755
+      spriteID: 23aea2e90bd1f6545a42b8fc9a774088
+      internalID: -1760209342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeftRIghtWalk_1
+      name: wagon3_1_1
       rect:
         serializedVersion: 2
-        x: 107
-        y: 0
-        width: 31
-        height: 32
+        x: 14
+        y: 121
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e4f408d690cc8429389f5e084ab657
-      internalID: 1221523642
+      spriteID: 73551982e59f640468fa1b05c7931bb5
+      internalID: -325126441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeftRIghtWalk_2
+      name: wagon3_1_2
       rect:
         serializedVersion: 2
-        x: 142
-        y: 0
-        width: 31
-        height: 33
+        x: 22
+        y: 115
+        width: 13
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4a3e4b0f7c38144b63f5084c0bb7c4
-      internalID: 1046612494
+      spriteID: 90cce9dbb23f65a4386e24e4a4472cce
+      internalID: 1572469195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeftRIghtWalk_3
+      name: wagon3_1_3
       rect:
         serializedVersion: 2
-        x: 179
-        y: 0
-        width: 29
-        height: 34
+        x: 39
+        y: 121
+        width: 12
+        height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3843fae463efc044186a46cd95f44f47
-      internalID: -1361134219
+      spriteID: 151586d0a87f37643b28ffefb31b36c6
+      internalID: -294008317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeftRIghtWalk_4
+      name: wagon3_1_4
       rect:
         serializedVersion: 2
-        x: 212
-        y: 0
-        width: 31
-        height: 32
+        x: 53
+        y: 121
+        width: 13
+        height: 4
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49508c9649c0707469245b5df1c01086
-      internalID: -893581167
+      spriteID: 07b10b21919556d4e92ff68b372e4ba3
+      internalID: 808016636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeftRIghtWalk_5
+      name: wagon3_1_5
       rect:
         serializedVersion: 2
-        x: 247
-        y: 0
-        width: 31
-        height: 33
+        x: 68
+        y: 121
+        width: 10
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31694be8f539e694dbf83c508463faa1
-      internalID: -1629946887
+      spriteID: 34328add62d5f204b83fdab39293f958
+      internalID: 12044583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpWalking_0
+      name: wagon3_1_6
       rect:
         serializedVersion: 2
-        x: 285
-        y: 0
-        width: 24
-        height: 33
+        x: 80
+        y: 90
+        width: 15
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 338105993db343247bf10d30fe5875f3
-      internalID: -2042872312
+      spriteID: 92c61717a2b994e48bae6e5a4ad1bb90
+      internalID: -216691669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpWalking_1
+      name: wagon3_1_7
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 24
-        height: 32
+        x: 2
+        y: 103
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38d7b13be73761f41a40743b779ed95f
-      internalID: 22303267
+      spriteID: 00d8853208ca2094d98ff85af9ce5b59
+      internalID: 1799746406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpWalking_2
+      name: wagon3_1_8
       rect:
         serializedVersion: 2
-        x: 355
-        y: 0
-        width: 24
-        height: 33
+        x: 9
+        y: 103
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92f3d1a10c6fe9c4fad688946bc179c8
-      internalID: 2039204304
+      spriteID: 05615d2925c3c984589cc044c64dac89
+      internalID: 1534887615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpWalking_3
+      name: wagon3_1_9
       rect:
         serializedVersion: 2
-        x: 390
-        y: 0
-        width: 24
-        height: 34
+        x: 16
+        y: 103
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d8f714670f885941a78293cebb89228
-      internalID: -1412231830
+      spriteID: 8910674d3ed7f7347b37d992665b31a4
+      internalID: 94251246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpWalking_4
+      name: wagon3_1_10
       rect:
         serializedVersion: 2
-        x: 425
-        y: 0
-        width: 24
-        height: 32
+        x: 23
+        y: 103
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d66603ed0b1e2a84d870b040ce7343eb
-      internalID: 285702052
+      spriteID: bc9399418a407eb4fbcb133cfa8dba27
+      internalID: -183388005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpWalking_5
+      name: wagon3_1_11
       rect:
         serializedVersion: 2
-        x: 460
-        y: 0
-        width: 24
-        height: 33
+        x: 30
+        y: 103
+        width: 12
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a68e989594169f144a98787793bfb92a
-      internalID: 941256758
+      spriteID: 221014c055d98f14cb9b18a4212980a0
+      internalID: 990820609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UpWalking_6
+      name: wagon3_1_12
       rect:
         serializedVersion: 2
-        x: 495
-        y: 0
-        width: 24
-        height: 33
+        x: 4
+        y: 75
+        width: 14
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86647b7841e5afe46aa12ca0f7fe4037
-      internalID: 1587004413
+      spriteID: b4510c562003370448243e563b8db0d6
+      internalID: -860583622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownWalking_0
+      name: wagon3_1_13
       rect:
         serializedVersion: 2
-        x: 530
-        y: 0
-        width: 24
-        height: 33
+        x: 19
+        y: 75
+        width: 10
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cecf5c462ac613d4cafae04a61fc5d17
-      internalID: 683491956
+      spriteID: 4684911caec501e4a9c965bf07ba2eb9
+      internalID: 605449020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownWalking_1
+      name: wagon3_1_14
       rect:
         serializedVersion: 2
-        x: 565
-        y: 0
-        width: 24
-        height: 31
+        x: 30
+        y: 75
+        width: 13
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91923fd8900af634eb3492b4d9d1cd50
-      internalID: 208849895
+      spriteID: d1ca33d6a16d2c849a6104d4045e4575
+      internalID: 968669334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownWalking_2
+      name: wagon3_1_15
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 24
-        height: 32
+        x: 45
+        y: 75
+        width: 11
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454dfdc762d3f9e47b25b471c8e799d0
-      internalID: 1524028901
+      spriteID: 0eabb04fe49eb8e46aa3b4c6b1b75742
+      internalID: 2062932523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownWalking_3
+      name: wagon3_1_16
       rect:
         serializedVersion: 2
-        x: 635
-        y: 0
-        width: 24
-        height: 33
+        x: 3
+        y: 54
+        width: 14
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 344d17e08e28ed443a652575234d5a60
-      internalID: 1314871634
+      spriteID: e8d347567ae589d4796c0003ee0fd891
+      internalID: 1147557676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownWalking_4
+      name: wagon3_1_17
       rect:
         serializedVersion: 2
-        x: 670
-        y: 0
-        width: 24
-        height: 31
+        x: 18
+        y: 54
+        width: 10
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10a3e2294d97f1e48816e47cb0ed8659
-      internalID: 774946210
+      spriteID: a517c33aa159bf04fbd5caf2826ff23c
+      internalID: -110030141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownWalking_5
+      name: wagon3_1_18
       rect:
         serializedVersion: 2
-        x: 705
-        y: 0
-        width: 24
-        height: 32
+        x: 29
+        y: 54
+        width: 13
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b67e855b017e6ef49b895f89f22294e3
-      internalID: 1352744301
+      spriteID: afcf4456e3b872c46833fd5ac80c6406
+      internalID: 1008473182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_0
+      name: wagon3_1_19
       rect:
         serializedVersion: 2
-        x: 738
-        y: 1
-        width: 31
-        height: 33
+        x: 44
+        y: 54
+        width: 11
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5677a4a23aeb424181bd85788753a64
-      internalID: -949993184
+      spriteID: 25c9abf8db2b35f43b59bedfc8bfdc9e
+      internalID: 1002595892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_1
+      name: wagon3_1_20
       rect:
         serializedVersion: 2
-        x: 773
-        y: 1
-        width: 31
-        height: 33
+        x: 3
+        y: 31
+        width: 14
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c81dfaab026c1147a4655a4b14900f8
-      internalID: -1524559228
+      spriteID: c4868dfea3a389a41a8c9cae3a209926
+      internalID: -1144020768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2
+      name: wagon3_1_21
       rect:
         serializedVersion: 2
-        x: 808
-        y: 1
-        width: 31
-        height: 33
+        x: 18
+        y: 31
+        width: 10
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6a5507cac68727439ebdd7dbbea6a71
-      internalID: 193229297
+      spriteID: ec10b1231bdc5ab42a8fc522f5a495cb
+      internalID: 874772282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_3
+      name: wagon3_1_22
       rect:
         serializedVersion: 2
-        x: 843
-        y: 1
-        width: 31
-        height: 33
+        x: 29
+        y: 31
+        width: 13
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1b079d641516734daf3946f1c9bff4e
-      internalID: -1634381803
+      spriteID: ab5a6c3a4e444494ebdc22e6aa5d7e09
+      internalID: 722980874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagon3_1_23
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 31
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985c02db43582f743bce0db9c48c5f1a
+      internalID: -1084607702
       vertices: []
       indices: 
       edges: []
@@ -598,31 +619,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DownWalking_0: 683491956
-      DownWalking_1: 208849895
-      DownWalking_2: 1524028901
-      DownWalking_3: 1314871634
-      DownWalking_4: 774946210
-      DownWalking_5: 1352744301
-      Idle_0: -949993184
-      Idle_1: -1524559228
-      Idle_2: 193229297
-      Idle_3: -1634381803
-      LeftRIghtWalk_0: -1662311755
-      LeftRIghtWalk_1: 1221523642
-      LeftRIghtWalk_2: 1046612494
-      LeftRIghtWalk_3: -1361134219
-      LeftRIghtWalk_4: -893581167
-      LeftRIghtWalk_5: -1629946887
-      UpWalking_0: -2042872312
-      UpWalking_1: 22303267
-      UpWalking_2: 2039204304
-      UpWalking_3: -1412231830
-      UpWalking_4: 285702052
-      UpWalking_5: 941256758
-      UpWalking_6: 1587004413
-      crow_all_walkidle_0: -1795747146
-      crow_all_walkidle_1: 630881398
+      wagon3_1_0: -1760209342
+      wagon3_1_1: -325126441
+      wagon3_1_10: -183388005
+      wagon3_1_11: 990820609
+      wagon3_1_12: -860583622
+      wagon3_1_13: 605449020
+      wagon3_1_14: 968669334
+      wagon3_1_15: 2062932523
+      wagon3_1_16: 1147557676
+      wagon3_1_17: -110030141
+      wagon3_1_18: 1008473182
+      wagon3_1_19: 1002595892
+      wagon3_1_2: 1572469195
+      wagon3_1_20: -1144020768
+      wagon3_1_21: 874772282
+      wagon3_1_22: 722980874
+      wagon3_1_23: -1084607702
+      wagon3_1_3: -294008317
+      wagon3_1_4: 808016636
+      wagon3_1_5: 12044583
+      wagon3_1_6: -216691669
+      wagon3_1_7: 1799746406
+      wagon3_1_8: 1534887615
+      wagon3_1_9: 94251246
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
