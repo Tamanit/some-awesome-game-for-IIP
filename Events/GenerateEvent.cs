@@ -14,9 +14,10 @@ public class GenerateEvent : MonoBehaviour
     private float timeToLive = 9f;
     private int minCount = 3;
     private float _timer = 0f;
-    
+
     public string[] eventNames = new string[]{"fire","pipe", "drezin"};
     
+
     void FixedUpdate()
     {
         
