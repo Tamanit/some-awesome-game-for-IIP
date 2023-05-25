@@ -3,18 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class BasicActions : MonoBehaviour
 {
-    public float movementSpeed = 3.5f;
-    public CharacterController body;
-    //public Rigidbody2D body;
+    public float movementSpeed = 1000f;
+    //public CharacterController body;
+    public Rigidbody2D body;
     public SpriteRenderer sprite;
     public Animator animator;
     private Vector3 _movingVector;
-
+    
     void Start()
     {
-        body.GetComponent<CharacterController>();
+        body.GetComponent<Rigidbody2D>();
         sprite.GetComponent<SpriteRenderer>();
         animator.GetComponent<Animator>();
     }
@@ -23,11 +24,11 @@ public class BasicActions : MonoBehaviour
     {
         //if (body.isGrounded){}
 
-        _movingVector = new Vector3(Input.GetAxis("Horizontal"), -5, 0);
-        _movingVector = transform.TransformDirection(_movingVector);
-        _movingVector *= movementSpeed;
+        //_movingVector = new Vector3(Input.GetAxis("Horizontal"), -5, 0);
+        //_movingVector = transform.TransformDirection(_movingVector);
+        //_movingVector *= movementSpeed;
 
-        body.Move(_movingVector * Time.deltaTime);
+        //body.Move(_movingVector * Time.deltaTime);
 
 
         /*body.velocity = Input.GetKey(KeyCode.W) ? Vector2.up * movementSpeed
@@ -36,11 +37,11 @@ public class BasicActions : MonoBehaviour
                   : Input.GetKey(KeyCode.D) ? Vector2.right * movementSpeed
         : Vector2.zero;
 */
-        /*
-        _movingVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        _movingVector *= movementSpeed;
+
+        _movingVector = new Vector2(Input.GetAxis("Horizontal")*movementSpeed,0);
+       // _movingVector *= movementSpeed;
         body.velocity = _movingVector;
-       */
+
         switch (body.velocity.x)
         {
             case > 0:
@@ -53,5 +54,7 @@ public class BasicActions : MonoBehaviour
 
         animator.SetBool("XMove", Math.Abs(body.velocity.x) > 0);
         animator.SetFloat("YMove", Input.GetAxis("Vertical"));
+        
+        
     }
 }
