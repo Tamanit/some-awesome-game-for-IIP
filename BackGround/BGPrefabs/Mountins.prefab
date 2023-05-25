@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2577623565279880275}
   - component: {fileID: 329365533489134230}
   m_Layer: 0
-  m_Name: background
+  m_Name: Mountins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f2844bfed85f2f4da9998f51f5d9154, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 273e808a879c99d46b72a8454f8b0d4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0632192c7a5fac46a2b7334c8bb8f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingSpeed: 10
+  movingSpeed: 60
 --- !u!114 &329365533489134230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +111,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f04aedf1ba56aa4d97dd412c6ae5b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deadZone: -437
