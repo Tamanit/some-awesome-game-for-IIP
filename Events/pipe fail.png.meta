@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5e1efc2b146e714f96385d9273b6800
+guid: 65dcfcf4bb686f44e9c02346d5ffbf77
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1.5
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,127 +117,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crow_box_walk-sheet_0
+      name: pipe fail_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 28
-        height: 34
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+        width: 8
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bcaaf8f247913540a3931394d024a86
-      internalID: 820241513
+      spriteID: 2710d30c17470774c8a31b5455a54c4c
+      internalID: -461605886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_box_walk-sheet_1
+      name: pipe fail_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 8
         y: 0
-        width: 29
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 8
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6dc085bcfb463429e8e213057aa466
-      internalID: -854185712
+      spriteID: 20e6312407b01e149a26b03ba9784542
+      internalID: 895758677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_box_walk-sheet_2
+      name: pipe fail_2
       rect:
         serializedVersion: 2
-        x: 69
+        x: 16
         y: 0
-        width: 29
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 8
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc208a98c045bc44897f00b5fc21e88d
-      internalID: 943220010
+      spriteID: d118be7e40d70b64b858e3e4ad36711f
+      internalID: 1810663792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_box_walk-sheet_3
+      name: pipe fail_3
       rect:
         serializedVersion: 2
-        x: 107
+        x: 24
         y: 0
-        width: 26
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 8
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdfbe0a43f5f0b74b94ac13b3c5b05fd
-      internalID: 2144057451
+      spriteID: e2fb780b86e04004480a7bc6da1b6dfb
+      internalID: -1586741609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crow_box_walk-sheet_4
+      name: pipe fail_4
       rect:
         serializedVersion: 2
-        x: 139
+        x: 32
         y: 0
-        width: 29
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 8
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d96b9551cc64a334eaea99c4374e28aa
-      internalID: -117654176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: crow_box_walk-sheet_5
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 0
-        width: 29
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 593446ef9be75324394851456d9d1418
-      internalID: -1423638519
+      spriteID: 9cb1bdee97241d644b1c2d72cac53a18
+      internalID: -1292539804
       vertices: []
       indices: 
       edges: []
@@ -253,12 +232,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      crow_box_walk-sheet_0: 820241513
-      crow_box_walk-sheet_1: -854185712
-      crow_box_walk-sheet_2: 943220010
-      crow_box_walk-sheet_3: 2144057451
-      crow_box_walk-sheet_4: -117654176
-      crow_box_walk-sheet_5: -1423638519
+      pipe fail_0: -461605886
+      pipe fail_1: 895758677
+      pipe fail_2: 1810663792
+      pipe fail_3: -1586741609
+      pipe fail_4: -1292539804
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

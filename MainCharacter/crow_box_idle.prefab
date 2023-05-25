@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4185808897888346949}
   - component: {fileID: 5555946975293287278}
   - component: {fileID: 5380178761415729486}
-  - component: {fileID: 5102840387036223134}
+  - component: {fileID: 4930109288063144614}
   m_Layer: 0
   m_Name: crow_box_idle
   m_TagString: Untagged
@@ -146,7 +146,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5102840387036223134
+--- !u!114 &4930109288063144614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,10 +155,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8119069392492770610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 880936df3978bd14d817f956c57ad270, type: 3}
+  m_Script: {fileID: 11500000, guid: e0ac9e265dc49b4409a16e6c2a00b95e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 3.5
+  movementSpeed: 1000
   body: {fileID: 0}
   sprite: {fileID: 0}
-  animator: {fileID: 4185808897888346949}
+  animator: {fileID: 0}
