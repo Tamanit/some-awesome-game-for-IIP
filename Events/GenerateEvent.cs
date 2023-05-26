@@ -9,8 +9,13 @@ public class GenerateEvent : MonoBehaviour
     public GameObject fire;
     public GameObject drezin;
     public GameObject dudes;
+<<<<<<< Updated upstream
 
 
+=======
+    public int eventsCreated = 0;
+    
+>>>>>>> Stashed changes
 
     private float timeToLive = 9f;
     private int minCount = 3;
@@ -24,6 +29,7 @@ public class GenerateEvent : MonoBehaviour
         
         var index = UnityEngine.Random.Range(0, eventNames.Length);
         string eventName = eventNames[index];
+
         
 
         if (_timer < timeToLive)
@@ -31,13 +37,15 @@ public class GenerateEvent : MonoBehaviour
             _timer += Time.deltaTime;
         }
         else
-        {           
+        {
+            eventsCreated += 1;
             _timer = 0;
             switch (eventName)
             {
                 case "pipe":
                     CreatePipe();
                     timeToLive = 7f;
+
                     break;
                 case "fire":
                     CreateFire();
@@ -70,5 +78,10 @@ public class GenerateEvent : MonoBehaviour
     }
     private void CreateFire() => Instantiate(fire, CreateFirePosition(), transform.rotation);
     private void RollDrezin() => Instantiate(drezin, new Vector2(-110,-20), transform.rotation);
-   
+
+    private void GameCompleted()
+    {
+        
+    }
+
 }
