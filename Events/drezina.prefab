@@ -202,9 +202,29 @@ PrefabInstance:
       propertyPath: parent
       value: 
       objectReference: {fileID: 3832279556116505155}
+    - target: {fileID: 6766122658988644476, guid: ee051e44cab4bf34fa5c1c1f64f1a765, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393104582382501705, guid: ee051e44cab4bf34fa5c1c1f64f1a765, type: 3}
+      propertyPath: m_Size.x
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393104582382501705, guid: ee051e44cab4bf34fa5c1c1f64f1a765, type: 3}
+      propertyPath: m_Size.y
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393104582382501705, guid: ee051e44cab4bf34fa5c1c1f64f1a765, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -860583622, guid: 7c3200b29a1ed214db9d1474188e3745, type: 3}
     - target: {fileID: 8393104582382501705, guid: ee051e44cab4bf34fa5c1c1f64f1a765, type: 3}
       propertyPath: m_SortingOrder
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8393104582382501705, guid: ee051e44cab4bf34fa5c1c1f64f1a765, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee051e44cab4bf34fa5c1c1f64f1a765, type: 3}

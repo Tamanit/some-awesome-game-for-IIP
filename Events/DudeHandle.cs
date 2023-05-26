@@ -8,14 +8,12 @@ public class DudeHandle : MonoBehaviour
 
     private BoxCollider2D collider;
     private int dudeUpCounter = 0;
-    public ScoreOnDestroy score;
+   
+   
 
     private void Start()
     {
-        if (score == null)
-        {
-            score = GetComponent<ScoreOnDestroy>();
-        }
+      
     }
 
     void Update()
@@ -24,17 +22,16 @@ public class DudeHandle : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collider)
     {
         GameObject collisionObject = collider.gameObject;
-        if (collisionObject.CompareTag("Player"))
+        if (collisionObject.CompareTag("Plumper")|| collisionObject.CompareTag("Fireman"))
         {
-           // print("touch");
+            print("touch");
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 dudeUpCounter += 1;
-              //  print("ыть");
+                print("ыть");
             }
             if (dudeUpCounter >= 6)
             {
-                score.GetComponent<ScoreOnDestroy>().AddToScore(1);
                 Destroy(gameObject);
                 dudeUpCounter = 0;
             }
