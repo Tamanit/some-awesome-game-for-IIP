@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab41930d0cc06b74d9ad33599d557900
+guid: d9d9ef640bdbbf14282426194012e1e3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1.5
+  spritePixelsToUnits: 2
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,101 +101,131 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fire crow_0
+      name: timer_1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 33
+        width: 10
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a792d969052f07e4dac84ff9a067bb9d
-      internalID: -673549343
+      spriteID: e714365397f0114498586c7afb7dba8e
+      internalID: -464934035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire crow_1
+      name: timer_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 10
         y: 0
-        width: 32
-        height: 33
+        width: 10
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e761cacb75bdf6468f66ec5661cf5a0
-      internalID: -1549583301
+      spriteID: f1f61dfda7ec0e142a1d763705ce5044
+      internalID: -1085663525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire crow_2
+      name: timer_3
       rect:
         serializedVersion: 2
-        x: 64
+        x: 20
         y: 0
-        width: 32
-        height: 33
+        width: 10
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6b963be5f8fbab44be85eba58357917
-      internalID: -1639639918
+      spriteID: 9269e069ca8eb5e4d954e611edc0f164
+      internalID: 910807110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire crow_3
+      name: timer_4
       rect:
         serializedVersion: 2
-        x: 96
+        x: 30
         y: 0
-        width: 32
-        height: 33
+        width: 10
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a93e678ccf51bf43b383be20cd7bc69
-      internalID: -1931330996
+      spriteID: bc66f94a03386ca42a3aafab7c80fbd3
+      internalID: 1887781338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fef6800d190c74bb9ca2bef0576ede
+      internalID: 389991024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6512cdcb82f17140b9eb8b20662eb26
+      internalID: -792048968
       vertices: []
       indices: 
       edges: []
@@ -211,10 +241,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fire crow_0: -673549343
-      fire crow_1: -1549583301
-      fire crow_2: -1639639918
-      fire crow_3: -1931330996
+      timer_0: -596283419
+      timer_1: -464934035
+      timer_2: -1085663525
+      timer_3: 910807110
+      timer_4: 1887781338
+      timer_5: 389991024
+      timer_6: -792048968
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
