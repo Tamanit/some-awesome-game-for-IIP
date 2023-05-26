@@ -10,11 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3278924504586292785}
   - component: {fileID: 8096786538593830377}
-  - component: {fileID: 4185808897888346949}
   - component: {fileID: 5380178761415729486}
-  - component: {fileID: 5102840387036223134}
   - component: {fileID: 1139134092089721411}
   - component: {fileID: 3731325967948415336}
+  - component: {fileID: 4930109288063144614}
+  - component: {fileID: 5455531218803028695}
+  - component: {fileID: -8619314751024887553}
   m_Layer: 0
   m_Name: crow_box_idle
   m_TagString: Untagged
@@ -89,27 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4185808897888346949
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8119069392492770610}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bb31802acbd405c4592f59d5c63fd7b1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &5380178761415729486
 Rigidbody2D:
   serializedVersion: 4
@@ -131,22 +111,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4930109288063144614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8119069392492770610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0ac9e265dc49b4409a16e6c2a00b95e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 60
-  body: {fileID: 5380178761415729486}
-  sprite: {fileID: 8096786538593830377}
-  animator: {fileID: 4185808897888346949}
 --- !u!114 &1139134092089721411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,7 +123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b84794c1790a94d964fc81853ae923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  train: {fileID: 0}
 --- !u!61 &3731325967948415336
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -167,7 +130,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8119069392492770610}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -186,3 +149,48 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20, y: 21}
   m_EdgeRadius: 0
+--- !u!114 &4930109288063144614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8119069392492770610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ac9e265dc49b4409a16e6c2a00b95e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5455531218803028695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8119069392492770610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110f1d577ed6bc44487e004d9a3c67d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &-8619314751024887553
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8119069392492770610}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb31802acbd405c4592f59d5c63fd7b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

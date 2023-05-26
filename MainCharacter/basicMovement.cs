@@ -1,30 +1,24 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 
 public class basicMovement : MonoBehaviour
 {
-    public float movementSpeed = 60f;
-    public Rigidbody2D body;
-    public SpriteRenderer sprite;
-    public Animator animator;
-    private Vector3 _movingVector;
+    private float movementSpeed = 60f;
+    private Rigidbody2D body;
+    private SpriteRenderer sprite;
+    private Animator animator;
 
-    void Start()
+    void Awake()
     {
-        body.GetComponent<Rigidbody2D>();
-        sprite.GetComponent<SpriteRenderer>();
-        animator.GetComponent<Animator>();
+        body = gameObject.GetComponent<Rigidbody2D>();
+        sprite = gameObject.GetComponent<SpriteRenderer>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
     void FixedUpdate()
     {
-
-        _movingVector = new Vector2(Input.GetAxis("Horizontal") * movementSpeed, 0);
-        body.velocity = _movingVector;
-
+        body.velocity = new Vector2(Input.GetAxis("Horizontal") * movementSpeed, 0);
+        animator.SetBool("XMove", !Mathf.Approximately(0f, body.velocity.x));
+        
         switch (body.velocity.x)
         {
             case > 0:
@@ -34,8 +28,5 @@ public class basicMovement : MonoBehaviour
                 sprite.flipX = false;
                 break;
         }
-
-        animator.SetBool("XMove", !Mathf.Approximately(0f, body.velocity.x));
-        animator.SetFloat("YMove", Input.GetAxis("Vertical"));
     }
 }
