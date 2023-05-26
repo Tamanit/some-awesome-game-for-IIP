@@ -8,8 +8,9 @@ public class GenerateEvent : MonoBehaviour
     public GameObject pipeFail;
     public GameObject fire;
     public GameObject drezin;
+    public GameObject dudes;
 
-    public GameObject train;
+
 
     private float timeToLive = 9f;
     private int minCount = 3;

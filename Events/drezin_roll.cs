@@ -8,11 +8,14 @@ public class drezin_roll : MonoBehaviour
 {
     private Rigidbody2D rb;
     private float counter = 0;
+    public GameObject dude;
     // Start is called before the first frame update
     void Start()
     {
+        Instantiate(dude, transform.position, transform.rotation);
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(60f, 0);
+        
     }
 
     // Update is called once per frame
