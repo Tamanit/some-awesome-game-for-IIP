@@ -6,12 +6,14 @@ public class basicMovement : MonoBehaviour
     private Rigidbody2D body;
     private SpriteRenderer sprite;
     private Animator animator;
+   
 
     void Awake()
     {
         body = gameObject.GetComponent<Rigidbody2D>();
         sprite = gameObject.GetComponent<SpriteRenderer>();
         animator = gameObject.GetComponent<Animator>();
+        
     }
 
     void FixedUpdate()
@@ -29,4 +31,5 @@ public class basicMovement : MonoBehaviour
                 break;
         }
     }
+   
 }

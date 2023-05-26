@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 4055098993023466175}
   - component: {fileID: 8393104582382501705}
   - component: {fileID: -8193739618332466108}
+  - component: {fileID: 160500987236038627}
+  - component: {fileID: 6766122658988644476}
+  - component: {fileID: -3728318960347125502}
   m_Layer: 0
   m_Name: Dudes
   m_TagString: Untagged
@@ -111,7 +114,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-8193739618332466108
+--- !u!114 &160500987236038627
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,7 +123,47 @@ MonoBehaviour:
   m_GameObject: {fileID: 2179962820863437611}
   m_Enabled: 1
   m_EditorHideFlags: 0
+
   m_Script: {fileID: 11500000, guid: e860b695386c9d04f9e9d4e25afa265b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &6766122658988644476
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2179962820863437611}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.4462013, y: 0.25305462}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14, y: 18}
+    newSize: {x: 14, y: 18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 18.892403, y: 31.327574}
+  m_EdgeRadius: 0
+--- !u!114 &-3728318960347125502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2179962820863437611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef9b942a09c88941b5a489c9df76f76, type: 3}
+
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 0}
