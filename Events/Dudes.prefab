@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2827482235144712825}
   - component: {fileID: 4055098993023466175}
   - component: {fileID: 8393104582382501705}
+  - component: {fileID: -8193739618332466108}
   m_Layer: 0
   m_Name: Dudes
   m_TagString: Untagged
@@ -45,8 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1249117c2df5ba49a3e13824c8b72a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  child: {fileID: 2179962820863437611}
-  parent: {fileID: 3832279556116505155, guid: 646dcb99c35f8aa4e94a44367140e93f, type: 3}
   dudes:
   - {fileID: -860583622, guid: 7c3200b29a1ed214db9d1474188e3745, type: 3}
   - {fileID: 605449020, guid: 7c3200b29a1ed214db9d1474188e3745, type: 3}
@@ -112,3 +111,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-8193739618332466108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2179962820863437611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e860b695386c9d04f9e9d4e25afa265b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 0}

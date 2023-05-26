@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DudeHandle : MonoBehaviour
 {
@@ -9,34 +10,29 @@ public class DudeHandle : MonoBehaviour
     private BoxCollider2D collider;
     private int dudeUpCounter = 0;
     public ScoreOnDestroy score;
+    
 
-    private void Start()
+    private void Awake()
     {
-        if (score == null)
-        {
-            score = GetComponent<ScoreOnDestroy>();
-        }
+        score = GameObject.Find("Score").GetComponent<ScoreOnDestroy>();
     }
-
-    void Update()
-    { }
-   
+    
     private void OnTriggerStay2D(Collider2D collider)
     {
         GameObject collisionObject = collider.gameObject;
-        if (collisionObject.CompareTag("Player"))
+        if (collisionObject.CompareTag("Plumper") || collisionObject.CompareTag("Fireman"))
         {
-           // print("touch");
+            print("touch");
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                gameObject.transform.position += new Vector3(0, 1, 0);
                 dudeUpCounter += 1;
-              //  print("ыть");
+                print("пїЅпїЅпїЅ");
             }
             if (dudeUpCounter >= 6)
             {
-                score.GetComponent<ScoreOnDestroy>().AddToScore(1);
+                score.AddToScore(1);
                 Destroy(gameObject);
-                dudeUpCounter = 0;
             }
         }
     }

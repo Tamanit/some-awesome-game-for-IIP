@@ -12,7 +12,6 @@ public class drezin_roll : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(dude, transform.position, transform.rotation);
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(60f, 0);
         

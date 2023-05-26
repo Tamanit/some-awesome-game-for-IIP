@@ -8,14 +8,10 @@ public class GenerateEvent : MonoBehaviour
     public GameObject pipeFail;
     public GameObject fire;
     public GameObject drezin;
-    public GameObject dudes;
-<<<<<<< Updated upstream
 
-
-=======
     public int eventsCreated = 0;
     
->>>>>>> Stashed changes
+
 
     private float timeToLive = 9f;
     private int minCount = 3;
