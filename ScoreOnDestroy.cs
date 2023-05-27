@@ -1,22 +1,24 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScoreOnDestroy : MonoBehaviour
 {
+    private Text text;
+    public int score = 15;
 
-    public int score;
-
-    // Use this for initialization
-    void Start()
+    private void Awake()
     {
-
-        score = 0;
-
+        text = gameObject.GetComponent<Text>();
+        text.text = score.ToString();
     }
 
-
     public void AddToScore(int amountToAdd)
-    { score = score + amountToAdd; }
+    {
+        score -= amountToAdd;
+        text.text = score.ToString();
+    }
           
 }

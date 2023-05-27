@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 5455531218803028695}
   - component: {fileID: -8619314751024887553}
   - component: {fileID: -7606373096753391926}
-  - component: {fileID: 3707193070809054436}
   m_Layer: 0
   m_Name: crow_box_idle
   m_TagString: Untagged
@@ -292,15 +291,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3707193070809054436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8119069392492770610}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f9cee9463c1e6142bd947f23c228f89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

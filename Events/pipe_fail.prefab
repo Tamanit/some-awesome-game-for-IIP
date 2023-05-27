@@ -183,7 +183,7 @@ Animator:
   m_GameObject: {fileID: 8549716248026070405}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7b71b7f8b658d434dbf36a9cdb44afdc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 43c76874229956846907aace01728abd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -235,6 +235,7 @@ MonoBehaviour:
   _TTKwater: 6
   _timerSpriteRender: {fileID: 2592971157751758371}
   tagPlayer: Plumper
+  score: {fileID: 0}
 --- !u!114 &998070609675213143
 MonoBehaviour:
   m_ObjectHideFlags: 0
