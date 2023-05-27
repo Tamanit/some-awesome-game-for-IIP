@@ -75,7 +75,7 @@ public class GenerateEvent : MonoBehaviour
     private void CreateFire() => Instantiate(fire, CreateFirePosition(), transform.rotation);
     private void RollDrezin() => Instantiate(drezin, new Vector2(-110,-20), transform.rotation);
 
-    private void GameCompleted()
+    private void GameFa()
     {
         
     }
